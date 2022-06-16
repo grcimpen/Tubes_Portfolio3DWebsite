@@ -6,21 +6,30 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grafika Komputer 3D</title>
-  <!-- <link rel="stylesheet" whref="style.css"> -->
-  
+  <link rel="stylesheet" href="style.css">
+
   <script src="node_modules/three/build/three.js"></script>
   <script src="node_modules/three/build/three.min.js"></script>
-  <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script> 
+  <script src="node_modules/three/examples/js/controls/OrbitControls.js"></script>
   <script src="node_modules/three/examples/js/loaders/GLTFLoader.js"></script>
   <script src="node_modules/three/examples/js/loaders/FBXLoader.js"></script>
   <script src="node_modules/three/examples/js/loaders/OBJLoader.js"></script>
   <script src="node_modules/three/examples/js/controls/PointerLockControls.js"></script>
+  <!-- <script src="node_modules/three/examples/jsm/loaders/FontLoader.js"></script> -->
 </head>
 
 <body>
-
-  <button id="btn1">try pointer</button>
-  <script src="lib/main_pointerlock.js"></script> 
+  <div>
+    <video id=video1 muted="muted"></video>
+    <video id=video2 muted="muted"></video>
+    <video id=video3 muted="muted"></video>
+    <video id=video4 muted="muted"></video>
+    <button id="btn1">Unlock Pointer</button>
+    <button id="btn2">Back to Welcome Gate</button>
+    <button id="btn3D">3D Area</button>
+    <button id="btn2D">2D Area</button>
+  </div>
+  <script src="lib/main_pointerlock.js"></script>
 
 </body>
 
