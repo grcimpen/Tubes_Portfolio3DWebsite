@@ -1,8 +1,58 @@
 body {
-  margin: 0;
-  overflow: hidden;
+  margin: 0 !important;
+  overflow: hidden !important;
+}
+button{
+  position: absolute;
+  cursor: pointer;
+  color: #fff;
+  background-color:rgba(66, 46, 92, 0.5);
+  width: 175px;
+  height: 50px;
+}
+/* #btn1{
+} */
+#btn2{
+  top: 143px;
+  /* right: 0; */
+}
+#btn3D{
+  /* right: 0; */
+  top: 48px;
+}
+#btn2D{
+  /* right: 0; */
+  top: 95px;
 }
 
-#btn1{
+video{
+  display: none;
+}
+
+a{
+  cursor: pointer;
+}
+.transparent {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
   position: absolute;
+  /* top: 50%;
+  left: 50%;
+  font-size: 50px; */
+  color: white;
 }
