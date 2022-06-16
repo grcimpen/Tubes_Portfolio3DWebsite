@@ -6,4 +6,4 @@ Presented by:
 1. Exelonia Maretta
 2. Mawar Gracia R
 
-Every external assets such as textures and 3D models resources are written in the js file
+Every external assets such as textures and 3D models sources are written in the js file
